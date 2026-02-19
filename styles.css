@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background: #0b0b0f;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* COLLEGE HEADER */
+
+.college-header {
+    background: #111;
+    padding: 25px 20px;
+    border-bottom: 3px solid gold;
+}
+
+.college-header h1 {
+    color: gold;
+    margin: 5px 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.college-header p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* HERO */
+
+.hero {
+    margin-top: 40px;
+}
+
+.glow-title {
+    font-size: 60px;
+    color: #ffd700;
+    letter-spacing: 4px;
+    font-weight: 700;
+    animation: glowPulse 3s infinite alternate;
+
+    text-shadow:
+        0 0 5px rgba(255, 215, 0, 0.6),
+        0 0 10px rgba(255, 200, 0, 0.4),
+        0 0 15px rgba(255, 170, 0, 0.3);
+}
+
+@keyframes glowPulse {
+    from {
+        text-shadow:
+            0 0 5px rgba(255, 215, 0, 0.5),
+            0 0 10px rgba(255, 200, 0, 0.3);
+    }
+    to {
+        text-shadow:
+            0 0 10px rgba(255, 215, 0, 0.8),
+            0 0 20px rgba(255, 170, 0, 0.6);
+    }
+}
+.subtitle {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* SECTION TITLE */
+
+.section-title {
+    margin-top: 60px;
+    font-size: 28px;
+    color: gold;
+}
+
+/* CARDS */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px;
+}
+
+.card {
+    background: #141414;
+    padding: 25px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 200, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 30px gold;
+}
+
+button {
+    background: gold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: orange;
+}
