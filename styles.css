@@ -16,7 +16,7 @@ body {
     top: 45%;
     left: 50%;
     width: 1100px;              /* Increased size */
-    height: 900px;
+    height: 1000px;
     background: url("dragon.png") no-repeat center;
     background-size: contain;
     transform: translate(-50%, -50%);
@@ -24,7 +24,7 @@ body {
     z-index: 0;
     pointer-events: none;
     filter: drop-shadow(0 0 40px rgba(255,215,0,0.4));
-    animation: floatDragon 7s ease-in-out infinite alternate;
+    animation: floatDragon 8s ease-in-out infinite alternate;
 }
 
 @keyframes floatDragon {
@@ -220,3 +220,4 @@ body {
         opacity: 0.20;
     }
 }
+
