@@ -101,7 +101,7 @@ body {
     z-index: 2;
 }
 
-/* ================= LANDSCAPE GRID ================= */
+/* ================= DESKTOP GRID ================= */
 
 .grid {
     display: grid;
@@ -112,15 +112,25 @@ body {
     z-index: 2;
 }
 
-/* Center 2nd row (items 5,6,7) */
-.grid .card:nth-child(5) {
-    grid-column: 2 / 3;
+/* Custom placement for Technical Events */
+
+.grid .card:nth-child(1) { grid-column: 1; }
+.grid .card:nth-child(2) { grid-column: 2; }
+.grid .card:nth-child(3) { grid-column: 3; }
+.grid .card:nth-child(4) { grid-column: 4; }
+
+/* Second row layout */
+
+.grid .card:nth-child(5) { 
+    grid-column: 1; 
 }
-.grid .card:nth-child(6) {
-    grid-column: 3 / 4;
+
+.grid .card:nth-child(6) { 
+    grid-column: 2 / 4;  /* Center spanning */
 }
-.grid .card:nth-child(7) {
-    grid-column: 4 / 5;
+
+.grid .card:nth-child(7) { 
+    grid-column: 4; 
 }
 
 /* ================= CARD STYLE ================= */
@@ -162,21 +172,24 @@ body {
 
 /* ================= RESPONSIVE ================= */
 
-@media (max-width: 1000px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+@media (max-width: 768px) {
 
-@media (max-width: 600px) {
     .grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
     }
 
     .main-title {
         font-size: 40px;
     }
 
+    
     animation: floatDragon 3.4s ease-in-out infinite alternate:
 {
         width: 90000px;
