@@ -250,6 +250,9 @@ footer span {
     from { text-shadow: 0 0 5px rgba(255,215,0,0.4); }
     to   { text-shadow: 0 0 15px rgba(255,215,0,0.8); }
 }
+body {
+    padding-bottom: 120px;
+}
 
 
 
