@@ -220,26 +220,6 @@ body {
         opacity: 0.30;
     }
 }
-.watermark {
-    position: fixed;
-    bottom: 10px;
-    right: 15px;
-    font-size: 12px;
-    color: #ffd700;
-    opacity: 0.4;
-    letter-spacing: 1px;
-    z-index: 3;
-    pointer-events: none;
-}
-
-.watermark:hover {
-    opacity: 0.7;
-}
-.watermark {
-    font-size: 11px;
-    color: white;
-    opacity: 0.3;
-}
 /* ================= FOOTER ================= */
 
 .site-footer {
@@ -263,6 +243,7 @@ body {
     from { text-shadow: 0 0 5px rgba(255,215,0,0.4); }
     to   { text-shadow: 0 0 15px rgba(255,215,0,0.8); }
 }
+
 
 
 
