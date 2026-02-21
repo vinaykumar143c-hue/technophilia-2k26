@@ -267,4 +267,24 @@ footer span {
         opacity: 0.50;
     }
 }
+/* ===== GOLD STRIP TEXT GLOW ===== */
+
+.news-ticker span {
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    animation: goldTextGlow 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes goldTextGlow {
+    from {
+        text-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    to {
+        text-shadow: 
+            0 0 10px rgba(255,255,255,0.6),
+            0 0 20px rgba(255,215,0,0.7);
+    }
+}
 
