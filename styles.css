@@ -222,15 +222,22 @@ body {
 }
 /* ================= FOOTER ================= */
 
-.site-footer {
-    margin-top: 80px;
-    padding: 25px 0;
+footer {
+    width: 100%;
     text-align: center;
+    padding: 25px 10px 50px;   /* pushes content up from bottom */
+    margin-top: 60px;          /* space above footer */
     background: #0a0a0a;
-    border-top: 1px solid rgba(255, 215, 0, 0.2);
+    border-top: 1px solid rgba(255, 215, 0, 0.3);
     font-size: 14px;
-    letter-spacing: 1px;
-    color: #cccccc;
+    letter-spacing: 0.5px;
+    position: relative;
+    z-index: 5;
+}
+
+footer span {
+    color: #ffd700;
+    font-weight: 600;
 }
 
 .designer-name {
@@ -243,6 +250,7 @@ body {
     from { text-shadow: 0 0 5px rgba(255,215,0,0.4); }
     to   { text-shadow: 0 0 15px rgba(255,215,0,0.8); }
 }
+
 
 
 
