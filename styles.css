@@ -209,7 +209,7 @@ body {
     .dragon-bg {
         width: 480px;
         height: 480px;
-        opacity: 0.30;          /* Slightly reduced so it doesn’t dominate */
+        opacity: 0.50;          /* Slightly reduced so it doesn’t dominate */
     }
 }
     
@@ -220,6 +220,7 @@ body {
         opacity: 0.30;
     }
 }
+
 
 
 
