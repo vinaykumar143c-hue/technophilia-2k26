@@ -274,7 +274,7 @@ footer span {
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 1px;
-    animation: goldTextGlow 2.5s ease-in-out infinite alternate;
+    animation: goldTextGlow 1.9s ease-in-out infinite alternate;
 }
 
 @keyframes goldTextGlow {
@@ -287,4 +287,5 @@ footer span {
             0 0 20px rgba(255,215,0,0.7);
     }
 }
+
 
