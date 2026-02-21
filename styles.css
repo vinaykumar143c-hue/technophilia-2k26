@@ -220,6 +220,36 @@ body {
         opacity: 0.30;
     }
 }
+/* NEWS TICKER */
+
+.news-ticker {
+    width: 100%;
+    overflow: hidden;
+    background: #111;
+    border-top: 1px solid #ffd700;
+    border-bottom: 1px solid #ffd700;
+    padding: 10px 0;
+    margin: 25px 0 40px;
+}
+
+.ticker-text {
+    display: inline-block;
+    white-space: nowrap;
+    color: #ffd700;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    animation: scrollText 18s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
 /* ================= FOOTER ================= */
 
 footer {
@@ -253,6 +283,7 @@ footer span {
 body {
     padding-bottom: 120px;
 }
+
 
 
 
