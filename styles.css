@@ -105,6 +105,26 @@ body {
     font-size: 15px;
     letter-spacing: 1px;
 }
+.ticker-line {
+    display: block;
+    font-size: 15px;
+    margin: 3px 0;
+}
+
+.main-line {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.highlight-line {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.news-ticker {
+    text-align: center;
+    line-height: 1.4;
+}
 
 /* ================= SECTION TITLE ================= */
 
@@ -247,3 +267,4 @@ footer span {
         opacity: 0.50;
     }
 }
+
